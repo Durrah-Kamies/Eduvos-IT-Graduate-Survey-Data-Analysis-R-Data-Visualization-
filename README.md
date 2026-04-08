@@ -107,7 +107,6 @@ The Shiny dashboard is deployed to a GitHub repository and can be accessed onlin
 ## Author
 
 **Durrah Kamies**
-- Student ID: 17668
 - Assignment: ITRDA3-11-ASSIGNMENT-MOWBRAY-CT.2023
 - Course: IT Data Research and Analytics
 
