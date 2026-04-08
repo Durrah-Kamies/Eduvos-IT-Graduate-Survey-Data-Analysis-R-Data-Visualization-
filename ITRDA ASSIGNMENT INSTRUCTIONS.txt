@@ -1,0 +1,198 @@
+ITRDA ASSIGNMENT INSTRUCTIONS:
+
+4. Section A
+4.1. Question 1
+Question 1
+20 Marks
+
+Study the scenario and complete the questions that follow:
+
+You are required to use R studio to perform all coding necessary.
+
+ 
+
+Scenario: Analysing a Graduate Survey for Eduvos
+
+You've been hired by Eduvos to analyse survey data to understand the tech tools their past students from the IT faculty are currently using. The goal is to identify the most popular programming languages, web frameworks, databases, and other tools graduates are working with. This information will help Eduvos update their IT courses to ensure they are teaching skills that are relevant in the industry.
+
+Key Data Columns
+
+Although the dataset has over 80 columns, you will focus on the following:
+
+Campus: The Eduvos campus the graduate is from
+StudyField: The graduate's field of study (IT, Data Science, or Computer Science)
+Branch: Primary Type of work
+Role: Type of Developer role at work
+EduLevel: Highest level of education achieved
+ProgLang: Programming languages the graduate works with
+Databases: Databases the graduate works with
+Platform: The cloud platform the graduate works with
+WebFramework: The web framework the graduate uses in their work
+Industry: The industry in which the graduate works
+AISearch: AI search tool (e.g., ChatGPT, Bing AI) the graduate uses
+AITool: AI developer tool (e.g., GitHub Copilot) the graduate uses
+Employment: The employment status and type of the graduate
+Objective
+
+Your task is to clean and analyze the dataset, then create a dashboard using Shiny and Quarto. This dashboard will be presented to stakeholders at Eduvos to help them make informed decisions about which courses to offer and how to tailor the content to match current industry needs and trends. The dashboard should provide insights through various plots and descriptive statistics.
+
+
+
+The dataset can be downloaded from the "Assignment Dataset" folder on myLMS
+
+ 
+
+ 
+
+ 
+
+1.    Perform all the cleaning and preprocessing steps needed to get the dataset into a more usable format. This includes, but is not limited to, tasks such as:
+
+a.    Selecting relevant columns noted in the scenario only
+
+b.    Missing value treatment
+
+c.    Standardizing categorical columns. E.g. Durban and Umhlanga refer to the same Eduvos campus and should thus be changed to be one value (either Durban or Umhlanga).
+
+d.    Subsetting data to contain the 3-5 campuses with the most responses.
+
+You need to justify all your data cleaning and preprocessing steps taken.
+
+ 
+End of Question 1
+
+4. Section A
+4.2. Question 2
+Question 2
+30 Marks
+
+1.    Visualize your data to get a better understanding of it. The key questions you need to answer through your visualizations are:
+
+ 
+
+I.     What are the top tools (programming languages, databases, AI search and developer tools, web frameworks, and platforms) used currently by graduates in the tech space? Note that respondents could select more than one tool as their answer for each of these questions in the survey. Thus, in ProgLang, Databases, Platform, WebFramework, AISearch, and AITool, the tools are split by a “;”. keep this in mind when determining the top tools used in each.
+
+(12 Marks)
+
+II.    What are the most popular industries graduates go into from the various study fields? Note that respondents could select more than one industry which are split by a “;” in their response (in each cell).
+
+(8 Marks)
+
+III.  What are the top job roles graduates go into from the various study fields?
+
+(5 Marks)
+
+IV.  What is the employment rate of graduates from each study?
+
+(5 Marks)
+
+End of Question 2
+
+4. Section A
+4.3. Question 3
+Question 3
+25 Marks
+
+1.    You have been tasked with creating a dashboard using R Shiny to analyze a survey data from Eduvos IT graduates. This dashboard will help Eduvos understand which programming languages, databases, web frameworks, and other tech tools their graduates are currently using. Upload your R files for your shiny dashboard to a github repository so you may deploy your dashboard. Provide both the link to your github repository and the link to your deployed dashboard in a text file as part of your submission.
+
+Your dashboard will be marked based on the following:
+
+ 
+
+I. Dashboard Layout and Design
+
+(6 marks)
+
+·         User Interface Design and Layout
+
+·         Consistent Styling
+
+II. Data Visualization
+
+(8 marks)
+
+·         Variety of Visualizations
+
+·         Clarity and Readability
+
+·         Usefulness of Visualizations
+
+III. Interactivity
+
+(5 marks)
+
+·         Interactive Elements
+
+·         User Experience
+
+IV. Documentation
+
+(6 marks)
+
+·         Code Documentation
+
+·         User Guide
+
+ 
+
+End of Question 3
+
+4. Section A
+4.4. Question 4
+Question 4
+25 Marks
+
+1.    Based on your analysis and the visualizations created in the Eduvos Developer Survey Dashboard, you are required to write a comprehensive report. This report should provide insights derived from the data, supported by your visualizations, and offer actionable recommendations to Eduvos. Your report should be clear, well-structured, and professionally written. Your report should be structured as follows:
+
+ 
+
+1. Introduction
+
+(3 marks)
+
+Introduce the report's purpose and analysis scope.
+Mention key focus areas: programming languages, databases, web frameworks, etc.
+2. Data Overview
+
+(3 marks)
+
+Summarize the dataset, including the time period and key variables.
+Highlight significant data cleaning/preparation steps.
+3. Insights and Analysis
+
+(10 marks)
+
+Programming Languages: Discuss popular languages and trends.
+Databases: Identify common databases and usage patterns.
+Web Frameworks: Analyze frequently used frameworks and correlations.
+Cloud Platforms: Report on popular cloud platforms and trends.
+AI Tools: Highlight AI tools and their impact.
+4. Recommendations
+
+(6 marks)
+
+Curriculum Development: Suggest updates to the curriculum.
+Focus Areas: Recommend areas of emphasis (AI tools, cloud platforms).
+Industry Alignment: Provide strategies for industry alignment.
+5. Conclusion
+
+(3 marks)
+
+Summarize key findings and recommendations.
+Emphasize the potential impact on Eduvos and its students.
+ 
+
+Submission Guidelines
+
+File Format: Submit the report as a PDF or Word document.
+Length: The report should be concise and to the point, ideally 4-6 pages, including visuals.
+Visuals: Ensure that your report includes relevant charts and graphs from your dashboard to support your insights.
+ 
+
+End of Question 4
+
+
+ 
+ 
+ 
+ 
